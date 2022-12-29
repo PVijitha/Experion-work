@@ -1,0 +1,68 @@
+header{
+    background-color: dodgerblue;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+}
+.parent{
+    display: flex;
+    align-items: center;
+}
+ .aside{
+    height: 80vh;
+    width: 30vw;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.container{
+    height: 80vh;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.center{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+
+}
+.content{
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.child{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    height: 120px;
+}
+

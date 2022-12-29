@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    background-color: dodgerblue;
+    height: 200px;
+    width: 220px;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    color: white;
+}
+.child{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:aquamarine;
+    justify-content: space-between;
+    padding: 120px;
+    box-sizing: border-box;
+
+}

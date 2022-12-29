@@ -1,0 +1,177 @@
+*{
+    
+    margin: 0;
+}
+.flex{
+    
+    display: flex;
+}
+.grid{
+    
+    display: grid;
+}
+body
+{
+
+    background-color: black;
+}
+nav{
+    
+    background-color: black;
+    height: 13vh;
+    align-items: center;
+    padding-left: 25px;
+}
+nav h1{
+    font-family: arial;
+    font-size: 30px;
+    
+}
+.my{
+    color: white;
+}
+.tube{
+    color: red;
+    margin-left: 10px;
+    background-color: white;
+    padding: 7px 0 0 0;
+    border-radius: 10px;
+}
+.main{
+    
+    grid-template-columns: repeat(4, .3fr);
+    padding: 0px 0px 0px 25px;
+}
+.container{
+    height: 40vh;
+    width: 23vw;
+    border-radius: 25px;
+    
+
+}
+.thumbnail{
+    height: 25vh;
+    background-image: url(download.jpg);
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.thumb-icon{
+    background-image: url(avatar2.png);
+    height: 55px;
+    min-width: 55px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 5px 10px 0 0;
+}
+.thumb-text p{
+    color:white ;
+    font-family: arial;
+    font-size: 13px;
+    margin: 15px 0;
+}
+.thumbnail1{
+    height: 25vh;
+    background-image: url(Screenshot\ \(6\).png);
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.thumb-icon1{
+    background-image: url(download\ \(6\).jpg);
+    height: 40px;
+    min-width: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 13px 10px 0 0;
+}
+.thumbnail2{
+    height: 25vh;
+    background-image: url(download\ \(1\).jpg);
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.thumb-icon2{
+    background-image: url(download\ \(5\).jpg);
+    height: 40px;
+    min-width: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 13px 10px 0 0;
+}
+.thumbnail3{
+    height: 25vh;
+    background-image: url(download\ \(4\).jpg);
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.thumb-icon3{
+    background-image: url(sweet.jpg);
+    height: 40px;
+    min-width: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 13px 10px 0 0;
+}
+.thumbnail4{
+    height: 25vh;
+    background-image: url(images.jpg);
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.thumb-icon4{
+    background-image: url(download\ \(6\).jpg);
+    height: 40px;
+    min-width: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 13px 10px 0 0;
+}
+.thumbnail5{
+    height: 25vh;
+    background-image: url(download\ \(3\).jpg);
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.thumb-icon5{
+    background-image: url(avatar1.png);
+    height: 40px;
+    min-width: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 13px 10px 0 0;
+}
+.thumbnail6{
+    height: 25vh;
+    background-image: url(images\ \(5\).jpg);
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.thumb-icon6{
+    background-image: url(sweet.jpg);
+    height: 40px;
+    min-width: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 13px 10px 0 0;
+}
+.thumbnail7{
+    height: 25vh;
+    background-image: url(images\ \(4\).jpg);
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.thumb-icon7{
+    background-image: url(download\ \(5\).jpg);
+    height: 40px;
+    min-width: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 13px 10px 0 0;
+}
