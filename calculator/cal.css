@@ -1,30 +1,30 @@
-body{
-    
+body {
     background-color: #0accee;
 }
-.cal{
+
+.cal {
     height: 50vh;
     width: 22vw;
     background-color: white;
     margin-left: 35vw;
     margin-top: 15vh;
-    border-radius: 15% ;
-    
+    border-radius: 15%;
 }
-.container1{
-    justify-content:center;
+
+.container1 {
+    justify-content: center;
     align-items: center;
     display: grid;
     background-color: white;
     height: 20vh;
     border-radius: 150%;
-    
 }
-.content1{
+
+.content1 {
     height: 40px;
     width: 15vw;
     color: rgba(84, 82, 82, 0.967);
-    background-color:#0accee;
+    background-color: #0accee;
     padding-right: 7px;
     display: flex;
     justify-content: flex-end;
@@ -33,20 +33,19 @@ body{
     font-size: large;
 }
 
-.container2{
+.container2 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     grid-template-rows: 1fr 1fr 1fr;
     margin-top: 0;
     margin-left: 2px;
     padding: 30px;
 }
-.box1{
-    background-color:rgba(185, 185, 185, 0.967);
+
+.box1 {
+    background-color: rgba(185, 185, 185, 0.967);
     border: none;
     height: 30px;
     width: 50px;
-    
-  }
-  
+}

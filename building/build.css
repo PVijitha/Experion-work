@@ -1,42 +1,42 @@
-body{
+body {
     margin: 0;
-    
 }
-.top{
+
+.top {
     height: 80vh;
     background-color: rgb(64, 243, 153);
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    
 }
 
-.footer{
+.footer {
     background-color: rgb(27, 233, 226);
     height: 20vh;
     align-items: center;
     display: flex;
     justify-content: center;
     height: 20vh;
-    
 }
-.box-set1{
+
+.box-set1 {
     padding: 10px;
     background-color: white;
     height: 30vh;
     width: 15vw;
     margin-bottom: 5px;
-    
 }
-.in-box1{
+
+.in-box1 {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
     margin-top: 20px;
     margin-left: 15px;
-    height: 5vh;    
+    height: 5vh;
 }
-.in-box2{
+
+.in-box2 {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 15px;
@@ -44,25 +44,27 @@ body{
     margin-left: 15px;
     height: 30px;
     width: 190px;
-    background-color:rgb(134, 239, 189);
-    border-radius: 8px;    
+    background-color: rgb(134, 239, 189);
+    border-radius: 8px;
 }
-.in-box3{
+
+.in-box3 {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
     margin-top: 40px;
     margin-left: 15px;
     height: 20vh;
 }
-.small{
+
+.small {
     height: 30px;
     width: 30px;
-    background-color:rgb(134, 239, 189);
-    border-radius: 8px;     
+    background-color: rgb(134, 239, 189);
+    border-radius: 8px;
 }
 
-.box-set2{
+.box-set2 {
     height: 60vh;
     width: 15vw;
     background-color: white;
@@ -70,11 +72,11 @@ body{
     margin-bottom: 45px;
 
 }
-.last-box{
+
+.last-box {
     background-color: white;
     height: 30vh;
     width: 15vw;
     margin-bottom: 3.5vh;
     margin-left: 12.5vw;
-
 }

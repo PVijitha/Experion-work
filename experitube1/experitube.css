@@ -1,16 +1,18 @@
-header{
-   justify-content: start;
-   display: flex;
-   background-color: #2199e9;
-   height: 20vh;
-   align-items: center;
-   box-sizing: border-box;
+header {
+    justify-content: start;
+    display: flex;
+    background-color: #2199e9;
+    height: 20vh;
+    align-items: center;
+    box-sizing: border-box;
 }
-body{
+
+body {
     box-sizing: border-box;
     margin: 0;
 }
-.parent{
+
+.parent {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -20,20 +22,23 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.footer{
-   align-items: center;
-   display: flex;
+
+.footer {
+    align-items: center;
+    display: flex;
     justify-content: center;
     background-color: #01ebfe;
     height: 20vh;
     text-align: center;
 }
-.middle{
-height: 100vh;
-flex-direction: row;
-display: flex;
+
+.middle {
+    height: 100vh;
+    flex-direction: row;
+    display: flex;
 }
-.content{
+
+.content {
     align-items: center;
     justify-content: center;
     background-color: #00ffbd;
@@ -43,7 +48,8 @@ display: flex;
     color: white;
     width: 300vh;
 }
-.aside{
+
+.aside {
     align-items: center;
     justify-content: center;
     background-color: #ff7c01;

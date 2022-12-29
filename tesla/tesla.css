@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0;
-    background-image:url(tesla_roadster_01.jpg);
-    
+    background-image: url(tesla_roadster_01.jpg);
 }
-nav{
+
+nav {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     height: 25vh;
@@ -12,30 +12,34 @@ nav{
     padding: 30px;
     justify-content: space-between;
     box-sizing: border-box;
-    
 }
-.part1 img{
-    
+
+.part1 img {
+
     height: 20px;
 }
+
 .part2 {
     display: flex;
     font-size: large;
-   
 }
-.part2 p{
-    padding: 0 10px ;
+
+.part2 p {
+    padding: 0 10px;
     margin: 0;
 }
-.part3{   
-    display: flex;    
+
+.part3 {
+    display: flex;
 }
-.part3 p{
-    padding: 0 10px ;
+
+.part3 p {
+    padding: 0 10px;
     margin: 0;
 
 }
-.container1{
+
+.container1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,22 +47,24 @@ nav{
     font-weight: bold;
     font-size: xx-large;
 }
-.container2{
+
+.container2 {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-.container2 a{
+
+.container2 a {
     color: black;
 }
-.bt{
+
+.bt {
     margin-top: 55vh;
-    
 }
-.btn1{
+
+.btn1 {
     margin-left: 30vw;
     height: 30px;
     width: 18vw;
@@ -66,14 +72,12 @@ nav{
     color: white;
     border: none;
 }
-.btn2{
+
+.btn2 {
     margin-left: 5vw;
     height: 30px;
     width: 18vw;
-    background-color:white;
-    color:black;
+    background-color: white;
+    color: black;
     border: none;
 }
-
-
-

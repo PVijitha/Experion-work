@@ -1,4 +1,4 @@
-header{
+header {
     background-color: dodgerblue;
     height: 10vh;
     width: 100vw;
@@ -8,16 +8,18 @@ header{
     font-size: 20px;
     padding-left: 20px;
     box-sizing: border-box;
-    
 }
-body{
+
+body {
     margin: 0;
 }
-.parent{
+
+.parent {
     display: flex;
     align-items: center;
 }
- .aside{
+
+.aside {
     height: 80vh;
     width: 30vw;
     background-color: orange;
@@ -25,32 +27,33 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-} 
-.footer{
+}
+
+.footer {
     height: 10vh;
     width: 100vw;
-    background-color:aqua;
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    
 }
-.container{
+
+.container {
     height: 80vh;
     background-color: aquamarine;
     display: flex;
 }
 
-.center{
+.center {
     width: 70vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 100px;
-
 }
-.content{
+
+.content {
     background-color: dodgerblue;
     width: 100px;
     height: 100px;
@@ -59,10 +62,10 @@ body{
     justify-content: center;
     color: white;
 }
-.child{
+
+.child {
     display: flex;
     justify-content: space-between;
     width: 330px;
     height: 120px;
 }
-

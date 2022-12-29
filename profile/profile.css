@@ -1,47 +1,48 @@
-body{
+body {
     background-image: url(sky.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.grid{
+
+.grid {
     display: grid;
 }
-.profile{
-    
+
+.profile {
     height: 80vh;
     width: 25vw;
     background-color: aliceblue;
     border-radius: 20px;
-    grid-template-rows: 160px 1.5fr  1fr 1fr;
-    
-    }
+    grid-template-rows: 160px 1.5fr 1fr 1fr;
+}
 
-h2{
+h2 {
     margin: 0;
 }
-.parent{
+
+.parent {
     margin: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-.top{
-    background-image:url(pebble.jpg);
+
+.top {
+    background-image: url(pebble.jpg);
     background-size: cover;
     border-radius: 20px 20px 0 0;
 }
-.center1{
+
+.center1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    } 
-    
+}
 
-.center2{
-    margin:0;
+.center2 {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -50,7 +51,7 @@ h2{
     font-family: sans-serif;
 }
 
-.center3{
+.center3 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -59,8 +60,7 @@ h2{
     font-family: sans-serif;
 }
 
-
-.middle{
+.middle {
     display: flex;
     position: absolute;
     top: 25%;
@@ -70,7 +70,8 @@ h2{
     border-radius: 50%;
     background-color: antiquewhite;
 }
-.middle img{
+
+.middle img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,19 +80,18 @@ h2{
     border-radius: 50%;
     transform: scale(90%);
 }
-.bottom button{   
-        background-color: rgb(56, 27, 223);
-        color: white;
-        padding: 10px;
-        border-radius: 10px;
-        width: 175px;
-        border-color:rgb(56, 27, 223);
-        margin-left: 25%;
-        margin-bottom: 50px;
-        
+
+.bottom button {
+    background-color: rgb(56, 27, 223);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 175px;
+    border-color: rgb(56, 27, 223);
+    margin-left: 25%;
+    margin-bottom: 50px;
 }
 
-.card{
+.card {
     margin-top: 60px;
-
 }

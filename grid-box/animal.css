@@ -1,9 +1,9 @@
-
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.content{
+
+.content {
     background-color: dodgerblue;
     height: 200px;
     width: 220px;
@@ -13,18 +13,18 @@ body{
     justify-content: center;
     color: white;
 }
-.child{
+
+.child {
     display: flex;
     justify-content: space-between;
-    
 }
-.container{
+
+.container {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color:aquamarine;
+    background-color: aquamarine;
     justify-content: space-between;
     padding: 120px;
     box-sizing: border-box;
-
 }
